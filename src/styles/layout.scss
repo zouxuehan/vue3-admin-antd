@@ -1,0 +1,28 @@
+.layout-wrapper{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  .sider-wrapper{
+    width: 210px;
+    min-width: 210px;
+  }
+  
+}
+.main-wrapper{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  .header-wrapper{
+    position: fixed;
+    width: calc(100vw - 210px);
+    height: 80px;
+  }
+  .footer-wrapper{
+    height: 80px;
+  }
+  .content-wrapper{
+    overflow: hidden;
+    min-height: calc(100vh - 160px);
+    margin-top: 80px;
+  }
+}
