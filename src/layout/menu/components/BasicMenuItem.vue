@@ -1,11 +1,16 @@
 <template>
-  <div> </div>
+  <div>
+    <MenuItem>
+      <MenuItemContent></MenuItemContent>
+    </MenuItem>
+  </div>
 </template>
 
 <script lang="ts">
   import { defineComponent } from 'vue'
+  import { Layout } from 'ant-design-vue'
   export default defineComponent({
-    name: 'LayoutContent',
+    components: { MenuItem: Layout.MenuItem },
     data() {
       return {}
     },

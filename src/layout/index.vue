@@ -3,7 +3,7 @@
     <Layout class="layout-wrapper">
       <layout-sider class="sider-wrapper">Sider</layout-sider>
       <Layout class="main-wrapper">
-        <layout-header class="header-wrapper">Header</layout-header>
+        <layout-header>Header</layout-header>
         <layout-content class="content-wrapper">Content</layout-content>
         <layout-footer class="footer-wrapper">Footer</layout-footer>
       </Layout>
